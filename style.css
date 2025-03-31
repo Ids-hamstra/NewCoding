@@ -1,3 +1,44 @@
 body {
-    background-color: blue;
+    background-color: rgb(252, 252, 252);
+    
+
+   
+}
+header {
+    border: 2px solid black;
+}
+.title { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: orange;
+}
+
+button {
+    border-radius: 10%;
+    background-color:rgb(255, 0, 0);
+    color: white;
+    width: 10%;
+    height: 10%;
+}
+
+.navbar li {
+   list-style-type: none;
+   display: flex;
+   border: 2px solid black;
+
+}
+
+
+a {
+    text-decoration: none;
 }
