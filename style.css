@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(0, 128, 128);
     margin: 0;
     padding: 0;
     
@@ -20,10 +20,7 @@ body {
     
 }
 
-.para {
-    display: flex;
-    justify-content: center;
-}
+
 
 header {
     background-color: orange;
@@ -57,8 +54,9 @@ header {
     padding-right: 60%;
 }
 
-header a:hover {
+header, .telNummer a:hover {
     color: #b2dfdb;
+    text-decoration: none;
 }
 
 a {
@@ -79,5 +77,15 @@ a {
     border: 1px solid black;
     border-radius: 40%;
     padding: 3px
+}
+
+
+.containerFooter {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 21rem;
+
 }
 
