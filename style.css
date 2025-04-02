@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 body {
     background-color: rgb(252, 252, 252);
+    margin: 0;
+    padding: 0;
     
 
    
 }
-header {
-    border: 2px solid black;
-}
+
 .title { 
     display: flex;
     justify-content: center;
@@ -31,13 +37,30 @@ button {
     height: 10%;
 }
 
-.navbar li {
+.navbarHeader li {
    list-style-type: none;
-   display: flex;
-   border: 2px solid black;
+   display: inline-block;
+   padding: 0 20px;
+
 
 }
 
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #241010;
+    flex-wrap: nowrap;
+}
+
+.titleNavBar {
+    padding-right: 70%;
+}
+
+header a:hover {
+    color: #b2dfdb;
+}
 
 a {
     text-decoration: none;

@@ -6,3 +6,6 @@ console.log(c);
 
 const btn = document.querySelector("button");
 btn.onclick = () => console.log("Hello");
+
+
+const div = document.createElement("div");
