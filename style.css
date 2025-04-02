@@ -54,7 +54,7 @@ header {
 }
 
 .titleNavBar {
-    padding-right: 70%;
+    padding-right: 60%;
 }
 
 header a:hover {
@@ -72,5 +72,12 @@ a {
     align-items: center;
     border: 2px solid black;
     margin-top: 14rem;
+    height: 166px;
+}
+
+#countMoney, #countDagen {
+    border: 1px solid black;
+    border-radius: 40%;
+    padding: 3px
 }
 
