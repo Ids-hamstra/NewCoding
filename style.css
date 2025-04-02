@@ -31,10 +31,9 @@ header {
 
 button {
     border-radius: 10%;
-    background-color:rgb(255, 0, 0);
+    background-color:rgb(214, 197, 235);
     color: white;
-    width: 10%;
-    height: 10%;
+    text-align: center;
 }
 
 .navbarHeader li {
@@ -65,3 +64,13 @@ header a:hover {
 a {
     text-decoration: none;
 }
+
+
+.containerDays {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 14rem;
+}
+
