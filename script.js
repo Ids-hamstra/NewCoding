@@ -1,1 +1,1 @@
-
+const PRICE = 12;
