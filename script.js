@@ -23,4 +23,4 @@ function verhoogPrijs() {
 function verlaagPrijs() {
     geldTotaal--;
     document.getElementById("countMoney").innerText = geldTotaal;
-}
+} 
