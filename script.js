@@ -16,6 +16,11 @@ function verminderAantalDagen() {
 
 //Wanneer iemand + knopt drukt bij geld bespaard, tel de prijs van een pakje op IPV steeds 1 erbij.
 function verhoogPrijs() {
-    geldTotaal = PRICE_SIGA;
+    geldTotaal++;
+    document.getElementById("countMoney").innerText = geldTotaal;
+}
+
+function verlaagPrijs() {
+    geldTotaal--;
     document.getElementById("countMoney").innerText = geldTotaal;
 }
